@@ -1,0 +1,25 @@
+/* Compilation Error */
+class ExceptionDemoThrow
+{
+	void eligible(double gradePoint)throws ArithmeticException{
+		if(gradePoint<6.0)
+			throw new ArithmeticException("Best of luck. Next Time");
+		else
+			System.out.println("Welcome");
+	}
+}
+
+class FinalBlock
+{
+	public static void main(String[] args) {
+		System.out.println("Test your disibility");
+		ExceptionDemoThrow ob = new ExceptionDemoThrow();
+		try{
+			ob.eligiblP(Integer.perseInt(args[0]));
+		}catch(ArithmeticException p){
+			p.printStackTrace();
+		}finally{
+			System.out.println("END");
+		}
+	}
+}

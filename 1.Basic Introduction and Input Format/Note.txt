@@ -1,0 +1,5 @@
+javac HelloWorld.java
+java HelloWorld
+
+javac HelloName.java
+java HelloName Ujjwal Maity
